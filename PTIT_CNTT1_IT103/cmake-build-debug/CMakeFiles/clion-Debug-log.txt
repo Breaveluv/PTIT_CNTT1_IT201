@@ -1,0 +1,13 @@
+"D:\New folder (2)\CLion 2025.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/New folder (2)/CLion 2025.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\nambu\Desktop\PTIT_CNTT1_IT103 -B C:\Users\nambu\Desktop\PTIT_CNTT1_IT103\cmake-build-debug
+-- Configuring done (0.2s)
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    PTIT_CNTT1_IT201_Session01_Session01/PTIT_CNTT1_IT201_Session01_Bai01.c
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: CSDL_GT
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
