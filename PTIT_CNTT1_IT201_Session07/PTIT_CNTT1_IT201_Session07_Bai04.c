@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 void swap(char *a, char *b) {
-    char *temp=*a;
+    char temp = *a;
     *a=*b;
     temp=*b;
 }

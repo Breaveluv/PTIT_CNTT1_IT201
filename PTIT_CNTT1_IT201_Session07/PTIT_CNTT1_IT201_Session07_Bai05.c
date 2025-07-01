@@ -39,7 +39,7 @@ int main() {
      int *arr;
      printf("Enter length of array: ");
      scanf("%d", &n);
-     if (n<=0)||n>1000){
+     if (n<=0||n>1000){
      printf("ERORR INPUT INVALID INPUT\n");
 
      return 1;

@@ -13,7 +13,7 @@ void bubbleSort(char *str , int len) {
  for (int i = 0; i < len; i++) {
      for (int j = 0; j < len-i-1; j++) {
          if (str[j] > str[j+1]) {
-             swap(str[j], str[j+1]);
+             swap(&str[j], &str[j+1]);
          }
      }
  }
