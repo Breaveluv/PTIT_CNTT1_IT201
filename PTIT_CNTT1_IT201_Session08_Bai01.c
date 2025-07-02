@@ -35,9 +35,10 @@ int main() {
     scanf("%d", &target);
     result = linearSearch(arr, n, target);
     if (result == -1) {
-        printf("Tim thay phan tu %d tai vi tri %d",target,result);
+       
+         printf("Khong tim thay ");
     }else {
-        printf("Khong tim thay ");
+        printf("Tim thay phan tu %d tai vi tri %d",target,result);
     }
     free(arr);
     return 0;
